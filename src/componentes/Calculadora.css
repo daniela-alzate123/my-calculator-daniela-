@@ -1,0 +1,34 @@
+main {
+    background-color: var(--fondo-calculadora);
+    aspect-ratio: 9/16;
+    border-radius: 2rem;
+    height: 90%;
+    min-height: 600px;
+    box-shadow: 0 0 0 50 px rgba(0, 0, 0, 20);
+    text-align: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap:1rem;
+  }
+
+  span.resultado{
+    color: var(--primario);
+    font-size: 3rem;
+  }
+
+  span.operacion{
+    color: var(--primario);
+    font-size: 3rem;
+  }
+
+  span{
+    grid-column: span 4;
+    text-align: right;
+    height: 3rem;
+    padding: 10;
+  }
+
+
+  
+

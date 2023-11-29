@@ -1,0 +1,26 @@
+button{
+    border: none;
+    aspect-ratio: 1 / 1;
+    border-radius: 3rem;
+    background-color: var(--terciario);
+    font-size: 2rem;
+}
+
+button.operacion{
+    background-color: var(--primario);
+
+}
+
+button.rosado{
+    background-color: var(--secundario);
+}
+
+
+
+button.vacio{
+    background-color: var(--fondo-calculadora);
+}
+
+button:active {
+    transform: scale(1. 02);
+}
